@@ -1,1 +1,10 @@
 streamlit
+anthropic
+python-dotenv
+matplotlib
+seaborn
+pandas
+plotly
+wordcloud
+numpy
+Pillow>=8.0.0
