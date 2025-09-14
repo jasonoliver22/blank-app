@@ -1,0 +1,35 @@
+{
+  "name": "chatwrapped-video",
+  "version": "1.0.0",
+  "description": "My Remotion video",
+  "repository": {},
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@remotion/cli": "4.0.347",
+    "@remotion/bundler": "4.0.347",
+    "@remotion/renderer": "4.0.347",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.347",
+    "zod": "3.22.3",
+    "@remotion/tailwind-v4": "4.0.347",
+    "tailwindcss": "4.0.0"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.347",
+    "prettier": "3.6.0",
+    "eslint": "9.19.0"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "upgrade": "remotion upgrade",
+    "lint": "eslint src",
+    "render": "node render-video.js",
+    "render:custom": "node generate-video-from-data.js"
+  },
+  "sideEffects": [
+    "*.css"
+  ]
+}

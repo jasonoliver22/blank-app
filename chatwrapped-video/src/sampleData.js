@@ -1,0 +1,17 @@
+// Sample data for testing the ChatWrapped video
+export const sampleAnalysisData = {
+  totalConversations: 247,
+  firstChat: "1/15/2025",
+  lastChat: "12/28/2025",
+  avgPerDay: 2.3,
+  longestBreak: 5.2,
+  avgConversationLength: 12.7,
+  peakHour: "2:00 PM",
+  weekendCount: 89,
+  weekdayCount: 158,
+  politenessScore: 4,
+  mostActiveDay: "Wed Dec 18 2025",
+  longestConversation: 45,
+  longestStreak: 12,
+  themes: "Top themes: coding (89), learning (67), work (45), personal (23), writing (12)"
+};
